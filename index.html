@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Thomas Walker's Radical Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+        }
+        p {
+            color: white;
+        }
+        h1 {
+            color: white;
+        }
+        h2 {
+            color: white;
+        }
+        .hell {
+            color: red;
+        }
+        header {
+            text-align: center;
+            font-size: large;
+            color: white;
+        }
+        footer {
+            text-align: center;
+            color:white;
+            padding: 10px;
+            width: 100%;
+        }
+        .section {
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        @media only screen and (min-width: 768px) {
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        }
+        [class*="col-"] {
+            float: left;
+            /* padding: 15px; */
+            border: 1px solid red;
+        }
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Thomas Walker</h1>
+        </header>
+        <div class="row">
+            <div class="col-2">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Resume</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-12 section">
+                        <h2 class="hell">Welcome to HELL</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 section">
+                        <p>Welcome to my website</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 section">
+                        <h2>Jank I have created</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="col-6">
+                                <iframe frameborder="0" src="https://itch.io/embed/480083?dark=true" width="85%" height="auto"><a href="https://enygmatic.itch.io/out-of-order">OUT OF ORDER - Episode 1 Shareware by Enygmatic</a></iframe>
+                                <!--<a href="https://enygmatic.itch.io/out-of-order">Out Of Order</a> -->
+                            </div>
+                            <div class="col-4">
+                                <p>A terrible retro FPS throwback game I made for the "So Bad It's Good" game jam on itch.io back in 2019. Somehow this game actually won that jam.</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <br  />
+                        </div>
+                        <div class="col-12">
+                            <div class="col-6">
+                                <iframe frameborder="0" src="https://itch.io/embed/657642?dark=true" width="85%" height="auto"><a href="https://enygmatic.itch.io/ja-wizardman">Ja Wizardman by Enygmatic</a></iframe>
+                                <!--<a href="https://enygmatic.itch.io/ja-wizardman">Ja Wizardman</a>-->
+                                
+                            </div>
+                            <div class="col-4">
+                                <p>A terrible first person action game based off of someone else's terrible game.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+
+        <footer>
+            <p>Copyright Thomas Walker 2020</p>
+        </footer>
+    </body>
+</html>
