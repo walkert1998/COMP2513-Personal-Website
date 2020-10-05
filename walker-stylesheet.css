@@ -28,6 +28,13 @@ footer {
 .section {
     text-align: center;
 }
+.sidebar {
+    /* width: 100%; */
+    position: fixed;
+    /* height: 100%; */
+    /* overflow: auto; */
+    /* display: block; */
+  }
 
 @media (max-width: 600px) {
     nav, article {
