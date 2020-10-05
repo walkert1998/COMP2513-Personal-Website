@@ -58,7 +58,14 @@ a.navitem:hover {
     /* display: block; */
     background-color: #dddddd;
     color: #000000;
-    text-decoration: underline;
+}
+a.navitem:active {
+    /* display: block; */
+    background-color: #dddddd;
+    color: #000000;
+}
+.current-page {
+    border-bottom: 2px solid #dddddd;
 }
 .navbox {
     border: 1px solid grey;
