@@ -11,6 +11,12 @@ h1 {
 h2 {
     color: white;
 }
+h3 {
+    color: white;
+}
+li {
+    color: white;
+}
 .hell {
     color: red;
 }
@@ -19,11 +25,39 @@ header {
     font-size: large;
     color: white;
 }
+table, th, td {
+    border: 1px solid grey;
+}
+th {
+    color: white;
+}
+td {
+    color: white;
+}
 footer {
     text-align: center;
     color:white;
     padding: 10px;
     width: 100%;
+}
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li.navitem {
+    display: inline;
+}
+a.navitem {
+    /* display: block; */
+    padding: 8px;
+    background-color: #dddddd;
+}
+.navbox {
+    border: 1px solid grey;
+}
+.centered {
+    margin: auto;
 }
 .section {
     text-align: center;
@@ -46,6 +80,12 @@ footer {
     content: "";
     clear: both;
     display: table;
+}
+.screenshot {
+    width: 45%;
+}
+.cover-photo {
+    width: 100%;
 }
 @media only screen and (min-width: 768px) {
 .col-1 {width: 8.33%;}
