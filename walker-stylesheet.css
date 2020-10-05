@@ -51,7 +51,14 @@ li.navitem {
 a.navitem {
     /* display: block; */
     padding: 8px;
+    color: #dddddd;
+    text-decoration: none;
+}
+a.navitem:hover {
+    /* display: block; */
     background-color: #dddddd;
+    color: #000000;
+    text-decoration: underline;
 }
 .navbox {
     border: 1px solid grey;
