@@ -1,43 +1,39 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: #000000;
 }
 p {
-    color: white;
+    color: #ffffff;
 }
 h1 {
-    color: white;
+    color: #ffffff;
 }
 h2 {
-    color: white;
+    color: #ffffff;
 }
 h3 {
-    color: white;
+    color: #ffffff;
 }
 li {
-    color: white;
-}
-.hell {
-    color: red;
+    color:#ffffff;
 }
 header {
     text-align: center;
     font-size: large;
-    color: white;
+    color: #ffffff;
 }
 table, th, td {
-    border: 1px solid grey;
+    border: 1px solid #7e7e7ef5;
 }
 th {
-    color: white;
+    color:#ffffff;
 }
 td {
-    color: white;
+    color: #ffffff;
 }
 footer {
     text-align: center;
-    color:white;
-    padding: 10px;
+    color: #ffffff;
     width: 100%;
 }
 ul.navbar {
@@ -49,26 +45,26 @@ li.navitem {
     display: inline;
 }
 a.navitem {
-    /* display: block; */
     padding: 8px;
-    color: #dddddd;
+    color: #ffffff;
     text-decoration: none;
 }
 a.navitem:hover {
-    /* display: block; */
-    background-color: #dddddd;
+    background-color: #ffffff;
     color: #000000;
 }
 a.navitem:active {
-    /* display: block; */
-    background-color: #dddddd;
+    background-color: #ffffff;
     color: #000000;
 }
 .current-page {
-    border-bottom: 2px solid #dddddd;
+    border-bottom: 2px solid #ffffff;
+}
+.hell {
+    color: #ff0000;
 }
 .navbox {
-    border: 1px solid grey;
+    border: 1px solid #7e7e7ef5;
 }
 .centered {
     margin: auto;
@@ -79,14 +75,6 @@ a.navitem:active {
 .selfie {
     width: 90%;
 }
-.sidebar {
-    /* width: 100%; */
-    position: fixed;
-    /* height: 100%; */
-    /* overflow: auto; */
-    /* display: block; */
-  }
-
 @media (max-width: 600px) {
     nav, article {
         width: 100%;
@@ -120,8 +108,6 @@ a.navitem:active {
 }
 [class*="col-"] {
     float: left;
-    /* padding: 15px; */
-    /* border: 1px solid red; */
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
