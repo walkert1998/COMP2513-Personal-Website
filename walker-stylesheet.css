@@ -76,6 +76,9 @@ a.navitem:active {
 .section {
     text-align: center;
 }
+.selfie {
+    width: 90%;
+}
 .sidebar {
     /* width: 100%; */
     position: fixed;
